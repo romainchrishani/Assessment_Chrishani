@@ -21,7 +21,7 @@ app.listen(PORT,()=>{
 
 
 
-const DB='mongodb+srv://user1:1234@cluster0.lokuk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+const DB=''
       mongoose.connect(DB).then(()=>{
         console.log("DB connected");
       })
